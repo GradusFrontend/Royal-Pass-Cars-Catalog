@@ -1,0 +1,1063 @@
+@media (max-width: 1199.98px) {
+    footer .footer-bottom .footer-bottom-right nav {
+    gap: 40px !important;
+    }
+  .footer .footer-top span {
+    font-size: 31px !important;
+  }
+  .search_car_wrap {
+    gap: 10px !important;
+    flex-direction: column;
+  }
+  footer .footer-top .download-place {
+    gap: 7px !important;
+  }
+
+  .car_type_tabs {
+    justify-content: center;
+  }
+
+  footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+    .footer-top {
+      width: 100%;
+      height: 120px;
+      padding-inline: 50px;
+      border-radius: 25px 25px 0px 0px;
+
+      span {
+        font-size: 40px;
+      }
+
+      .download-place {
+        display: flex;
+        gap: 20px;
+
+        img {
+          width: 220px;
+          height: 60px;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .footer-bottom {
+      padding-inline: 50px;
+
+      .footer-bottom-left {
+        gap: 90px;
+
+        span {
+          font-size: 20px;
+        }
+
+        .become-partner {
+          gap: 25px;
+
+          img {
+            width: 400px;
+            height: 270px;
+          }
+
+          button {
+            width: 400px;
+            height: 60px;
+            font-size: 22px;
+          }
+        }
+      }
+
+      .footer-bottom-right {
+        #application {
+          gap: 18px;
+
+          span {
+            font-size: 40px;
+          }
+
+          label {
+            font-size: 13px;
+            gap: 4px;
+
+            input {
+              height: 40px;
+            }
+          }
+
+          .application-submit {
+            padding-top: 10px;
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            margin-bottom: 60px;
+            align-items: center;
+
+            button {
+              height: 35px;
+              width: 170px;
+              font-size: 15px;
+            }
+
+            p {
+              font-size: 14px;
+              font-weight: 400;
+            }
+          }
+        }
+
+        nav {
+          gap: 80px;
+
+          div {
+            gap: 7px;
+
+            span {
+              font-size: 30px;
+            }
+
+            a {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992.98px) {
+body{
+    overflow-x: scroll !important;
+}
+    .footer .footer-bottom {
+        
+align-items: center;
+    }
+    .footer .footer-bottom .footer-bottom-left {
+    gap: 40px !important;
+    }
+    .footer .footer-bottom{
+        flex-direction: column !important;
+    }
+  .footer .footer-top {
+    height: fit-content;
+    flex-direction: column !important;
+    gap: 10px;
+    padding: 10px;
+  }
+  .footer .footer-top span {
+    font-size: 40px !important;
+  }
+  .spec_offer_section {
+    flex-direction: column;
+  }
+
+  .box_l {
+    .p {
+      font-size: 17px;
+      font-weight: 400;
+    }
+  }
+
+  .box_r {
+    .h1 {
+      font-size: 30px;
+      font-weight: 600;
+    }
+
+    .p {
+      font-size: 17px;
+      font-weight: 400;
+    }
+  }
+
+  .box_bottom {
+    .sviper {
+      display: flex !important;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .p {
+        padding-top: 10px;
+        padding-bottom: 20px;
+      }
+
+      .hfe {
+        margin-bottom: 0px;
+        margin-top: 0px;
+      }
+    }
+  }
+
+  .profitable .accordion {
+    width: 100% !important;
+    margin-top: 30px !important;
+    margin: 0 auto;
+  }
+
+  footer {
+    .footer-top {
+      width: 100%;
+      height: 100px;
+      padding-inline: 40px;
+      border-radius: 20px 20px 0px 0px;
+
+      span {
+        font-size: 25px;
+      }
+
+      .download-place {
+        display: flex;
+        gap: 20px;
+
+        img {
+          width: 170px;
+          height: 50px;
+        }
+      }
+    }
+
+    .footer-bottom {
+      padding-inline: 50px;
+      height: 500px;
+
+      .footer-bottom-left {
+        gap: 70px;
+
+        span {
+          font-size: 16px;
+        }
+
+        .become-partner {
+          gap: 25px;
+
+          img {
+            width: 300px;
+            height: 220px;
+          }
+
+
+          button {
+            width: 300px;
+            height: 40px;
+            font-size: 17px;
+          }
+        }
+      }
+
+      .footer-bottom-right {
+        #application {
+          gap: 15px;
+
+          span {
+            font-size: 25px;
+          }
+
+          label {
+            font-size: 12px;
+            gap: 4px;
+
+            input {
+              width: 380px;
+              height: 35px;
+            }
+          }
+
+          .application-submit {
+            padding-top: 10px;
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            margin-bottom: 60px;
+            align-items: center;
+
+            button {
+              height: 30px;
+              width: 150px;
+              font-size: 12px;
+            }
+
+            p {
+              font-size: 12px;
+              font-weight: 400;
+            }
+          }
+        }
+
+        nav {
+          gap: 60px;
+
+          div {
+            gap: 5px;
+
+            span {
+              font-size: 20px;
+            }
+
+            a {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+    .footer{
+        display: none;
+    }
+    body{
+        overflow-x: scroll;
+    }
+    .car_find .car_find_input_wrap{
+        flex-direction: column;
+        gap: 5px !important;
+    }
+    
+  .start_inf {
+    margin-top: 35px !important;
+  }
+  .car_type_tab {
+    padding: 5px 9px !important;
+  }
+
+  .car_find_input_wrap {
+    padding-block: 5px !important;
+  }
+
+  .box_l {
+    .p {
+      font-size: 12px;
+      font-weight: 400;
+    }
+  }
+
+  .box_r {
+    .h1 {
+      font-size: 19px;
+      font-weight: 600;
+    }
+
+    .p {
+      font-size: 12px;
+      font-weight: 400;
+    }
+  }
+
+  .line {
+    display: none;
+  }
+
+  .accordeonwrap {
+    margin-top: 400px;
+  }
+
+  .item {
+    h2 {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 12px;
+    }
+  }
+
+  .accordeon_title {
+    h1 {
+      font-size: 36px;
+    }
+
+    footer {
+      display: flex;
+      flex-direction: column !important   ;
+      margin: 0 auto;
+      width: 100%;
+
+      .footer-top {
+        height: 120px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 15px 20px;
+        border-radius: 15px 15px 0px 0px;
+
+        span {
+          font-size: 24px;
+        }
+
+        .download-place {
+          display: flex;
+          gap: 20px;
+
+          img {
+            width: 180px;
+            height: 55px;
+          }
+        }
+      }
+
+      .footer-bottom {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-inline: 25px 20px;
+        height: 600px;
+
+        .footer-bottom-left {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          gap: 30px;
+
+          span {
+            font-size: 14px;
+            font-weight: 400;
+          }
+
+          .become-partner {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 30px;
+
+            img {
+              width: 220px;
+              height: 140px;
+            }
+
+            button {
+              width: 250px;
+              height: 45px;
+              border-width: 2px;
+              font-size: 14px;
+              font-weight: 400;
+            }
+          }
+        }
+
+        .footer-bottom-right {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+
+          #application {
+            display: flex;
+            flex-direction: column;
+            gap: 13px;
+
+            span {
+              font-size: 24px;
+              font-weight: 600;
+              margin-bottom: 7px;
+            }
+
+            label {
+              font-size: 12px;
+              color: #979797;
+              display: flex;
+              flex-direction: column;
+              gap: 3px;
+
+
+              input {
+                width: 100%;
+                height: 40px;
+                border-radius: 10px;
+                border: 1px solid #a1a1a1;
+                padding-inline: 20px;
+                background: #f3f3f3;
+
+                &::placeholder {
+                  color: #a1a1a1;
+                }
+              }
+            }
+
+            .application-submit {
+              padding-top: 10px;
+              gap: 30px;
+              margin-bottom: 30px;
+              align-items: center;
+
+              button {
+                height: 40px;
+                width: 150px;
+                font-size: 12px;
+              }
+
+              p {
+                font-size: 13px;
+              }
+            }
+          }
+
+          nav {
+            display: flex;
+            flex-direction: row;
+            gap: 70px;
+            margin-bottom: 50px;
+
+            div {
+              display: flex;
+              flex-direction: column;
+              gap: 4px;
+
+              span {
+                color: #474747;
+                font-size: 20px;
+                font-weight: 600;
+              }
+
+              a {
+                text-decoration: none;
+                color: #474747;
+                font-size: 14px;
+                font-weight: 500;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .profitable .profitable__content .profitable_list {
+    gap: 5px !important;
+  }
+
+  .profitable .profitable__content .profitable__top .center h1 {
+    padding-bottom: 20px;
+    font-weight: 600;
+    font-size: 35px;
+  }
+
+  .profitable__top .center .subtitle p {
+    padding-top: -15px !important;
+    font-size: 13px !important;
+  }
+
+  .profitable__top p {
+    font-size: 11px !important;
+  }
+
+  .profitable__car {
+    top: 478px !important;
+    height: 500px !important;
+  }
+
+  .line {
+    margin-top: 603px !important;
+  }
+
+  .box_top {
+    gap: 9% !important;
+  }
+  .spec_offer_section .offer_title {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .box_l {
+    padding-left: 9px !important;
+  }
+  .sviper {
+    padding-bottom: 45px !important;
+  }
+  .accordeonwrap {
+    flex-direction: column !important;
+  }
+  .rent h2 {
+    font-size: 11px !important;
+  }
+  .profitable .profitable__content .profitable__top .center h1 {
+    padding-bottom: 10px !important;
+    font-size: 39px !important;
+  }
+  .profitable__top .center .subtitle p {
+    font-size: 12px;
+  }
+  .profitable .profitable__content .profitable__top .right button {
+    width: 100% !important;
+    padding: 14px 30px;
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+  }
+  .item h2 {
+    font-size: 15px !important;
+  }
+  .item p {
+    font-size: 10px !important;
+  }
+
+  .profitable .profitable__content .profitable__top .right button {
+    padding: -2px 30px !important;
+  }
+  .direction {
+    flex-direction: column;
+    gap: 0px !important;
+  }
+  .car_find .swiper_main {
+    height: 450px !important;
+  }
+  .car_type_tabs {
+    width: 100%;
+    overflow-x: scroll;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  .car_type_tab {
+    padding: 4px 5px !important;
+
+    & h4 {
+      font-size: 9px;
+    }
+  }
+
+  .car_find_input_wrap {
+    padding-block: 5px !important;
+  }
+
+  .car_find_input_wrap {
+    padding-block: 3px !important;
+    padding-inline: 10px !important;
+
+    .car_query_btn {
+      & h4 {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .box_l {
+    .p {
+      font-size: 10px;
+
+      font-weight: 400;
+    }
+  }
+
+  .box_r {
+    .h1 {
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .p {
+      font-size: 10px;
+      font-weight: 400;
+    }
+  }
+
+  .sviper {
+    .p {
+      font-size: 15px;
+    }
+  }
+
+  .accordeonwrap {
+    margin-top: 300px;
+  }
+
+  .profitable .profitable__content .profitable__top .right button {
+    padding: 10px 22px;
+
+    font-size: 13px;
+  }
+
+  .profitable .profitable__content .profitable_list .item {
+    gap: 6px !important;
+  }
+
+  .profitable
+    .accordion
+    .accordion-item
+    .accordion-item-header
+    .accordion-item-header-title {
+    font-size: 16px;
+  }
+
+
+  .profitable .accordion .accordion-item .accordion-item-header {
+    padding: 8px;
+  }
+
+  .profitable__car {
+    top: 550px !important;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+
+    .footer-top {
+      height: 115px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      padding: 15px 20px;
+      border-radius: 15px 15px 0px 0px;
+
+      span {
+        font-size: 20px;
+      }
+
+      .download-place {
+        display: flex;
+        gap: 20px;
+
+        img {
+          width: 150px;
+          height: 40px;
+        }
+      }
+    }
+
+    .footer-bottom {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding-inline: 25px 20px;
+      height: 600px;
+
+      .footer-bottom-left {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 30px;
+
+        span {
+          font-size: 14px;
+          font-weight: 400;
+        }
+
+        .become-partner {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          gap: 30px;
+
+          img {
+            width: 165px;
+            height: 115px;
+          }
+
+          button {
+            width: 200px;
+            height: 35px;
+            border-width: 1.5px;
+            font-size: 14px;
+            font-weight: 400;
+          }
+        }
+      }
+
+      @media (max-width: 320.98px) {
+        .sviper {
+          .p {
+            font-size: 8px;
+          }
+        }
+
+        .box_l {
+          .p {
+            font-size: 8px;
+
+            font-weight: 400;
+          }
+        }
+
+        .box_r {
+          .h1 {
+            font-size: 8px;
+            font-weight: 600;
+          }
+
+          .p {
+            font-size: 8px;
+            font-weight: 400;
+          }
+        }
+      }
+
+      @media (max-width: 400px) {
+        .accordeonwrap {
+          margin-top: 200px;
+        }
+
+        .item h2 {
+          font-size: 15px;
+        }
+
+        .item p {
+          font-size: 9px;
+        }
+
+        .profitable .profitable__content .profitable_list .circle {
+          width: 22px;
+          height: 22px;
+        }
+
+        .line {
+          margin-bottom: 43px;
+          margin-top: 241px !important;
+        }
+      }
+
+      .footer-bottom-right {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        #application {
+          display: flex;
+          flex-direction: column;
+          gap: 13px;
+
+          span {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 7px;
+          }
+
+          label {
+            font-size: 12px;
+            color: #979797;
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+
+            input {
+              width: 100%;
+              height: 30px;
+              border-radius: 6px;
+              border: 1px solid #a1a1a1;
+              padding-inline: 10px;
+              background: #f3f3f3;
+
+              &::placeholder {
+                color: #a1a1a1;
+                font-size: 12px;
+              }
+            }
+          }
+
+          .application-submit {
+            padding-top: 10px;
+            gap: 30px;
+            margin-bottom: 30px;
+            align-items: center;
+
+            button {
+              height: 30px;
+              width: 120px;
+              font-size: 12px;
+            }
+
+            p {
+              font-size: 12px;
+            }
+          }
+        }
+
+        nav {
+          display: flex;
+          flex-direction: row;
+          gap: 30px;
+          margin-bottom: 40px;
+
+          div {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+
+            span {
+              color: #474747;
+              font-size: 20px;
+              font-weight: 600;
+            }
+
+            a {
+              text-decoration: none;
+              color: #474747;
+              font-size: 14px;
+              font-weight: 500;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 319.98px) {
+    footer {
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      width: 100%;
+  
+      .footer-top {
+        height: 100px;
+        padding: 15px 15px;
+        border-radius: 10px 10px 0px 0px;
+  
+        span {
+          font-size: 16px;
+        }
+  
+        .download-place {
+          display: flex;
+          gap: 15px;
+  
+          img {
+            width: 150px;
+            height: 35px;
+          }
+        }
+      }
+  
+      .footer-bottom {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-inline: 25px 20px;
+        height: 600px;
+  
+        .footer-bottom-left {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 100%;
+          gap: 30px;
+  
+          span {
+            display: none;
+          }
+  
+          .become-partner {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 10px;
+  
+            img {
+              width: 170px;
+              height: 120px;
+            }
+  
+            button {
+              width: 170px;
+              height: 35px;
+              border-width: 1px;
+              font-size: 12px;
+              font-weight: 400;
+            }
+          }
+        }
+  
+        .footer-bottom-right {
+          margin-top: 20px;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+  
+          #application {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+  
+            span {
+              font-size: 16px;
+              font-weight: 600;
+              margin-bottom: 5px;
+            }
+  
+            label {
+              font-size: 10px;
+              color: #979797;
+              display: flex;
+              flex-direction: column;
+              gap: 3px;
+  
+              input {
+                width: 100%;
+                height: 30px;
+                border-radius: 4px;
+                border: 1px solid #a1a1a1;
+                padding-inline: 10px;
+                background: #f3f3f3;
+  
+                &::placeholder {
+                  color: #a1a1a1;
+                  font-size: 10px;
+                }
+              }
+            }
+  
+            .application-submit {
+              padding-top: 10px;
+              align-items: center;
+              display: flex;
+              flex-direction: column;
+              width: 100%;
+  
+              button {
+                height: 30px;
+                width: 100%;
+                font-size: 12px;
+                border-radius: 4px;
+              }
+  
+              p {
+                margin-top: -20px;
+                font-size: 12px;
+              }
+            }
+          }
+  
+          nav {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            margin-bottom: 30px;
+  
+            div {
+              display: flex;
+              flex-direction: column;
+              gap: 2px;
+  
+              & span {
+                color: #474747;
+                font-size: 15px;
+                font-weight: 500;
+              }
+  
+              & a {
+                text-decoration: none;
+                color: #474747;
+                font-size: 12px;
+                font-weight: 400;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

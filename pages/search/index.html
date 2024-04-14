@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Pass - Найти</title>
+    <link href="https://db.onlinewebfonts.com/a/osz2w1ENAw0g00aa7qbFk0nqV81cB3N3" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="./style.scss">
+</head>
+<body>
+
+    <section class="one">
+        <div class="wrap">
+            <div class="head_line">
+                <p>Главная</p> > 
+                <p>Автомобиль в лизинг</p> > 
+                <p class="active_p">Легковые автомобили</p>
+            </div>
+            <h1>
+                Автомобиль в лизинг
+                 <span class="amount">90</span>
+            </h1>
+        </div>
+    </section>
+
+    <section class="two">
+        <div class="wrap">
+            <div class="body_of_site">
+                <div class="left">
+                    <h2>Поиск машины</h2>
+                    <input class="search" placeholder="Поиск" type="text">
+                    <h2>Фильтры</h2>
+                    <p class="cost">
+                        <span class="num">550</span>$
+                    </p>
+                    <form name="form">
+                        <input name="cost" min="100" max="1000" class="range" type="range">
+                        Марка
+                        <input name="mark"  placeholder="Любая" type="text">
+                        Год выпуска
+                        <input name="date" placeholder="от 2000$" type="date">
+                        Пробег
+                        <input min="1" name="run" placeholder="Любая" type="number">
+                        Вместимость бака
+                        <input min="1" name="spent" placeholder="Любая" type="number">
+                        Макс. скорость
+                        <input min="1" name="spent_for_100" placeholder="Любая" type="number">
+                        <div class="btns">
+                        <button class="use">Применить</button>
+                        <button type="reset" class="delete">Сброс</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="right"></div>
+            </div>
+        </div>
+    </section>
+
+    <script type="module" src="./script.js"></script>
+</body>
+</html>

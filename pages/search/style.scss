@@ -1,0 +1,212 @@
+@use '/style-modules/header.scss';
+@use '/media-modules/search-media.scss';
+* {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "SuisseIntl-Regular";
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+.cars_information {
+    margin-top: 65px;
+}
+
+.wrap {
+    max-width: 1440px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.head_line{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.011em;
+    color: rgba(128, 128, 128, 1);
+}
+h1{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 49px;
+    color: rgba(71, 71, 71, 1);
+}
+.amount{
+    color: grey;
+}
+.active_p{
+ color: black;
+}
+.body_of_site{
+    display: flex;
+    gap: 20px;
+    justify-content: start;
+    .left{
+        h2{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 68.4px;
+    letter-spacing: -0.011em;
+    color: rgba(71, 71, 71, 1);
+        }
+        input{
+            padding-inline: 30px;
+            width: 316px;
+            height: 42px;
+            border-radius: 42px;
+            border: 1px solid grey;
+        }
+        form{
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 24px;
+            letter-spacing: -0.011em;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            input{
+                margin-block: 5px;
+                width: 316px;
+                height: 30px;
+                padding: 10px 12px 10px 12px;
+                border-radius: 5px;
+                border: 1px solid rgba(161, 161, 161, 1)
+            }
+            .btns{
+                margin-top: 20px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .use{
+                width: 137px;
+                height: 38px;
+                padding: 10px;
+                border-radius: 54px;
+                background: rgba(71, 71, 71, 1);
+                color: white;
+            }
+            .delete{
+                width: 137px;
+                height: 38px;
+                padding: 10px;
+                border-radius: 54px;
+                background: white;
+                color: rgba(71, 71, 71, 1);
+            }
+        }
+    }
+}
+
+
+.right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px 20px;
+
+    .car_card {
+        padding: 50px 20px 40px 20px;
+        border: 1px solid #A1A1A1;
+        border-radius: 22px;
+
+        .card_swiper {
+            width: 300px !important;
+            height: 200px;
+            margin-bottom: 35px;
+
+            .card_slider {
+                width: 100%;
+                height: 100%;
+
+                & img {
+                    border-radius: 5px;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: center;
+                }
+            }
+        }
+
+        .gas_info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .acceleration,
+            .expenses {
+                display: flex;
+                gap: 5px;
+                margin-bottom: 12px;
+            }
+        }
+
+        .car_card_name {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 5px;
+            color: #474747;
+
+        }
+
+        .car_card_type {
+            font-size: 16px;
+            font-weight: 400;
+            margin-bottom: 15px;
+            color: #474747;
+        }
+
+        .car_card_price_month {
+            font-size: 20px;
+            font-weight: 600;
+
+            color: #474747;
+            margin-bottom: 17px;
+        }
+
+        .car_card_btns {
+            display: flex;
+
+            .rent_btn {
+                border-radius: 30px;
+                border: 0;
+                font-size: 14px;
+                font-weight: 500;
+                padding: 14px 30px;
+                background: linear-gradient(90deg, #121212 0%, #282829 100%);
+                color: #fff;
+                width: 100%;
+                white-space: nowrap;
+            }
+
+            .car_card_show_more {
+                background: 0;
+                border: 0;
+                width: 100%;
+                font-size: 14px;
+                font-weight: 500;
+                padding: 14px 30px;
+            }
+        }
+    }
+}

@@ -1,20 +1,130 @@
-export function reloadCarCards(arr, place) {
-    place.innerHTML = ''
+export function CreateHeader() {
+    const header = document.createElement('header')
+    const left = document.createElement('div')
+    const center = document.createElement('div')
+    const right = document.createElement('div')
+    const burger_menu = document.createElement('div')
+    const img_1 = document.createElement('img')
+    const main = document.createElement('nav')
+    const img_2 = document.createElement('img')
+    const a_1 = document.createElement('a')
+    const a_2 = document.createElement('a')
+    const a_3 = document.createElement('a')
+    const a_4 = document.createElement('a')
+    const registration = document.createElement('button')
+    const img_3 = document.createElement('img')
+    const p = document.createElement('p')
+    const phone_number = document.createElement('div')
+    const languages = document.createElement('div')
+    const ru = document.createElement('p')
+    const en = document.createElement('p')
+    const dialog = document.createElement('dialog')
+    // b
+    img_1.src = '/public/icons/burger-menu.svg'
+    languages.className = 'languages'
+    ru.className = 'ru active_language'
+    en.className = 'en'
+    en.innerHTML = 'EN'
+    ru.innerHTML = 'RU'
+    left.className = 'left'
+    center.className = 'center'
+    img_3.src = '/public/icons/phone-call.svg'
+    p.innerHTML = '+1 347 828 7777'
+    right.className = 'right'
+    header.className = 'header'
+    phone_number.className = 'phone_number'
+    main.classList.add('main')
+    img_2.src = '/public/icons/logo.png'
+    registration.innerHTML = 'Регистрация'
+    registration.classList.add('registration')
+    burger_menu.className = 'burger-menu'
+    a_1.innerHTML = 'Главная'
+    a_1.href = '/'
+    a_2.innerHTML = 'Каталог'
+    a_2.href = '/pages/search/'
+    a_3.innerHTML = 'Контакты'
+    a_4.innerHTML = 'Стать партнёром'
+    //c
+    languages.append(en, ru)
+    phone_number.append(img_3, p)
+    right.append(phone_number, languages, registration)
+    center.append(img_2)
+    burger_menu.append(img_1)
+    main.append(a_1, a_2, a_3, a_4)
+    left.append(burger_menu, main)
+    header.append(left, center, right)
+    document.body.prepend(header, dialog)
+    // d
+    dialog.classList.add('regist')
+    dialog.innerHTML = `
+            <div class="head">
+            <div class="round">
+                <img src="/public/icons/line.svg" alt="">
+            </div>
+            <div class="round">
+                <img class="cancel" src="/public/icons/cancel.svg" alt="">
+            </div>
+        </div>
+        <h2>
+            Регистрация
+        </h2>
+        <p>
+            Войдите с помощью эл.почты либо через 
+                                Google или Facebook
+        </p>
+        <form>
+                Электронная почта
+            <input placeholder="name@email.com" type="text">
+            <button class="get__code">Получить код</button>
+        </form>
+        <p class="auto">
+            Авторизуясь вы соглашаетесь с политикой 
+        обработки персональных данных
+        </p>
+        <hr>
+        <div class="apps">
+            <div class="app">
+                <img src="/public/icons/google.png" alt="">
+            </div>
+            <div class="app">
+                <img src="/public/icons/facebook.png" alt="">
+            </div>
+        </div>
+    `
+    registration.onclick = () => {
+        dialog.showModal()
+    }
+    const cancel = document.querySelector('.cancel')
+    cancel.parentElement.onclick = () => {
+        dialog.close()
+    }
+}
 
+
+
+function reloadImgs(arr2) {
+    let resultImgs = ``
+    for (let img of arr2) {
+        resultImgs += `
+            <div class="swiper-slide card_slider">
+               <img src="${img.url}" alt="">
+            </div>
+            `
+    }
+
+    return resultImgs
+}
+export function reloadCarCards(arr, place) {
+    
+    
+    place.innerHTML = ''
+    
     for (let item of arr) {
-        place.innerHTML = `
+        place.innerHTML += `
         <div class="car_card">
         <div class="swiper card_swiper">
             <div class="swiper-wrapper">
-                <div class="swiper-slide card_slider">
-                    <img src="/public/images/card_img_test.png" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="/public/images/card_img_test.png" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <img src="/public/images/card_img_test.png" alt="">
-                </div>
+                ${reloadImgs(item.images)}
             </div>
         </div>
 
@@ -36,7 +146,7 @@ export function reloadCarCards(arr, place) {
                     </defs>
                 </svg>
 
-                <h4>6,4L на 100km</h4>
+                <h4>${item.speed} км/ч</h4>
             </div>
 
             <div class="acceleration">
@@ -53,17 +163,17 @@ export function reloadCarCards(arr, place) {
                     </defs>
                 </svg>
 
-                <h4>6,4L на 100km</h4>
+                <h4>${item.gas} gas</h4>
             </div>
         </div>
 
-        <h2 class="car_card_name">BMW RS6 Avant</h2>
-        <h4 class="car_card_type">Хэтчбэк</h4>
-        <h3 class="car_card_price_month">255$/месяц</h3>
+        <h2 class="car_card_name">${item.model}</h2>
+        <h4 class="car_card_type">${item.category.title}</h4>
+        <h3 class="car_card_price_month">${(item.price / 31).toFixed(2)}</h3>
 
         <div class="car_card_btns">
             <button class="rent_btn">Арендовать</button>
-            <a href="#">
+            <a href="/pages/car/?id=${item.id}">
                 <button class="car_card_show_more">Подробнее</button>
             </a>
         </div>
